@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Tweet
+{% endblock title %}
+    
+{% block content %}
+   <h1>Are you sure you want to delete tweet</h1>
+
+   <form method="post">
+    {% csrf_token %}
+    <button class="btn btn-danger">Delete</button>
+    <a href="{% url 'tweet_list'%}" class="btn btn-success">Cancel</i></a>
+   </form>
+{% endblock content %}
+    
