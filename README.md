@@ -110,9 +110,6 @@ http://127.0.0.1:8000
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your project UI here)
 
 ---
 
